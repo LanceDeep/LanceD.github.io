@@ -1,0 +1,119 @@
+body {background: #ffffff; font-family: Chivo, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+	font-style: none;
+	font-variant: none;
+        font-size: 12px;
+}
+
+
+
+a.top01:link {color: #006699; text-decoration: none; letter-spacing: 1px; font-size: 16px; font-weight: 600;}
+a.top01:visited {color: #006699; text-decoration: none; letter-spacing: 1px; font-size: 16px; font-weight: 600;}
+a.top01:hover {color: #0099cc; text-decoration: none; font-size: 16px;}
+a.top01:focus {color: #0099cc; text-decoration: none; font-size: 16px;}
+a.top01:active {color: #0066cc; text-decoration: none; font-size: 16px;}
+
+a.top02:link {color: #000a19; text-decoration: none; letter-spacing: 1px; font-size: 16px; font-weight: 600;}
+a.top02:visited {color: #000a19; text-decoration: none; letter-spacing: 1px; font-size: 16px; font-weight: 600;}
+a.top02:hover {color: #006699; text-decoration: none; font-size: 16px;}
+a.top02:focus {color: #006699; text-decoration: none; font-size: 16px;}
+a.top02:active {color: #0066cc; text-decoration: none; font-size: 16px;}
+
+a.main01:link {color: #006699; text-decoration: none; font-weight: 600;}
+a.main01:visited {color: #006699; text-decoration: none; font-weight: 600;}
+a.main01:hover {color: #0099cc; text-decoration: none;}
+a.main01:focus {color: #0099cc; text-decoration: none;}
+a.main01:active {color: #0066cc; text-decoration: none;}
+
+
+a.bot01:link {color: #006699; text-decoration: none; letter-spacing: 1px; font-size: 11px; font-weight: 400;}
+a.bot01:visited {color: #006699; text-decoration: none; letter-spacing: 1px; font-size: 11px; font-weight: 400;}
+a.bot01:hover {color: #0099cc; text-decoration: none; font-size: 11px;}
+a.bot01:focus {color: #0099cc; text-decoration: none; font-size: 11px;}
+a.bot01:active {color: #0066cc; text-decoration: none; font-size: 11px;}
+
+#slide{
+	width:96%;
+	}
+	
+* {
+	box-sizing: border-box
+}
+
+.mySlides {
+	display: none
+}
+
+.slideshow-container {
+	width: 1200px;
+	position: relative;
+	margin: 0px;
+
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 2s;
+	animation-name: fade;
+	animation-duration: 2s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
